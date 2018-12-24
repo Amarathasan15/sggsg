@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\bin\Debug\Programming Assignment2.exe.config
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\bin\Debug\Programming Assignment2.exe
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\bin\Debug\Programming Assignment2.pdb
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\bin\Debug\Programming Assignment2.xml
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming Assignment2.vbprojAssemblyReference.cache
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming_Assignment2.Form1.resources
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming_Assignment2.Resources.resources
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming Assignment2.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming Assignment2.vbproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming Assignment2.exe
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming Assignment2.xml
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming Assignment2.pdb
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\bin\Debug\Student registration Query.accdb
+C:\Users\User\source\repos\Programming Assignment2\Programming Assignment2\obj\Debug\Programming_Assignment2.Form2.resources

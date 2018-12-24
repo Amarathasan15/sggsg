@@ -1,0 +1,291 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Programming Assignment2
+</name>
+</assembly>
+<members>
+<member name="T:Programming_Assignment2.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Programming_Assignment2.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Programming_Assignment2.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.CoursesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.DepartmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.SubjectDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_IT_StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_Student_by_DepartmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet._Student_Department__UFS_DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.Student_DescendingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.Student_Descending_Of_Student_NameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.CoursesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.DepartmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.SubjectRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_IT_StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_Student_by_DepartmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet._Student_Department__UFS_Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.Student_DescendingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.Student_Descending_Of_Student_NameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.CoursesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.DepartmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.SubjectRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_IT_StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.All_Student_by_DepartmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet._Student_Department__UFS_RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.Student_DescendingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSet.Student_Descending_Of_Student_NameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.CoursesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.DepartmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.SubjectTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.All_IT_StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.All_StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.All_Student_by_DepartmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.Student_Department__UFS_TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.Student_DescendingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.Student_Descending_Of_Student_NameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Programming_Assignment2.Student_registration_QueryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Programming_Assignment2.Student_registration_QueryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Programming_Assignment2.Student_registration_QueryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.UpdateAll(Programming_Assignment2.Student_registration_QueryDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

@@ -11,4 +11,9 @@
         Me.StudentTableAdapter.Fill(Me.Student_registration_QueryDataSet.Student)
 
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Form3.Show()
+        Visible = False
+    End Sub
 End Class

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form2
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form3
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,34 +20,28 @@ Partial Class Form2
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim NameLabel As System.Windows.Forms.Label
-        Dim IC_numberLabel As System.Windows.Forms.Label
         Dim Matric_numberLabel As System.Windows.Forms.Label
-        Dim Contact_numberLabel As System.Windows.Forms.Label
-        Dim Department_codeLabel As System.Windows.Forms.Label
-        Dim Course_codeLabel As System.Windows.Forms.Label
-        Dim Total_FeeLabel As System.Windows.Forms.Label
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Student_registration_QueryDataSet = New Programming_Assignment2.Student_registration_QueryDataSet()
-        Me.StudentBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.StudentTableAdapter = New Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.StudentTableAdapter()
-        Me.TableAdapterManager = New Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager()
-        Me.NameTextBox = New System.Windows.Forms.TextBox()
-        Me.IC_numberTextBox = New System.Windows.Forms.TextBox()
-        Me.Matric_numberTextBox = New System.Windows.Forms.TextBox()
-        Me.Contact_numberTextBox = New System.Windows.Forms.TextBox()
-        Me.Department_codeTextBox = New System.Windows.Forms.TextBox()
-        Me.Course_codeTextBox = New System.Windows.Forms.TextBox()
-        Me.Total_FeeTextBox = New System.Windows.Forms.TextBox()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
+        Me.Btnupdate = New System.Windows.Forms.Button()
+        Me.Btndelete = New System.Windows.Forms.Button()
+        Me.Btncancel = New System.Windows.Forms.Button()
+        Me.Btncommit = New System.Windows.Forms.Button()
+        Me.Buttonaddview = New System.Windows.Forms.Button()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ToolStripComboBox1 = New System.Windows.Forms.ToolStripComboBox()
         Me.ToolStripComboBox2 = New System.Windows.Forms.ToolStripComboBox()
         Me.ToolStripComboBox3 = New System.Windows.Forms.ToolStripComboBox()
         Me.ToolStripComboBox4 = New System.Windows.Forms.ToolStripComboBox()
+        Me.Student_registration_QueryDataSet = New Programming_Assignment2.Student_registration_QueryDataSet()
+        Me.StudentBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.StudentTableAdapter = New Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.StudentTableAdapter()
+        Me.TableAdapterManager = New Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager()
+        Me.NameTextBox = New System.Windows.Forms.TextBox()
+        Me.Matric_numberTextBox = New System.Windows.Forms.TextBox()
         Me.StudentBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
         Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
@@ -61,175 +55,77 @@ Partial Class Form2
         Me.BindingNavigatorMoveLastItem = New System.Windows.Forms.ToolStripButton()
         Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.StudentBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Student_registration_QueryDataSet1 = New Programming_Assignment2.Student_registration_QueryDataSet()
         NameLabel = New System.Windows.Forms.Label()
-        IC_numberLabel = New System.Windows.Forms.Label()
         Matric_numberLabel = New System.Windows.Forms.Label()
-        Contact_numberLabel = New System.Windows.Forms.Label()
-        Department_codeLabel = New System.Windows.Forms.Label()
-        Course_codeLabel = New System.Windows.Forms.Label()
-        Total_FeeLabel = New System.Windows.Forms.Label()
+        Me.MenuStrip1.SuspendLayout()
         CType(Me.Student_registration_QueryDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.StudentBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MenuStrip1.SuspendLayout()
         CType(Me.StudentBindingNavigator, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.StudentBindingNavigator.SuspendLayout()
-        CType(Me.Student_registration_QueryDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'NameLabel
         '
         NameLabel.AutoSize = True
-        NameLabel.Location = New System.Drawing.Point(22, 89)
+        NameLabel.Location = New System.Drawing.Point(78, 105)
         NameLabel.Name = "NameLabel"
         NameLabel.Size = New System.Drawing.Size(49, 17)
-        NameLabel.TabIndex = 2
+        NameLabel.TabIndex = 20
         NameLabel.Text = "Name:"
-        '
-        'IC_numberLabel
-        '
-        IC_numberLabel.AutoSize = True
-        IC_numberLabel.Location = New System.Drawing.Point(22, 152)
-        IC_numberLabel.Name = "IC_numberLabel"
-        IC_numberLabel.Size = New System.Drawing.Size(76, 17)
-        IC_numberLabel.TabIndex = 4
-        IC_numberLabel.Text = "IC number:"
         '
         'Matric_numberLabel
         '
         Matric_numberLabel.AutoSize = True
-        Matric_numberLabel.Location = New System.Drawing.Point(22, 211)
+        Matric_numberLabel.Location = New System.Drawing.Point(78, 146)
         Matric_numberLabel.Name = "Matric_numberLabel"
         Matric_numberLabel.Size = New System.Drawing.Size(102, 17)
-        Matric_numberLabel.TabIndex = 6
+        Matric_numberLabel.TabIndex = 21
         Matric_numberLabel.Text = "Matric number:"
         '
-        'Contact_numberLabel
+        'Btnupdate
         '
-        Contact_numberLabel.AutoSize = True
-        Contact_numberLabel.Location = New System.Drawing.Point(22, 263)
-        Contact_numberLabel.Name = "Contact_numberLabel"
-        Contact_numberLabel.Size = New System.Drawing.Size(112, 17)
-        Contact_numberLabel.TabIndex = 8
-        Contact_numberLabel.Text = "Contact number:"
+        Me.Btnupdate.Location = New System.Drawing.Point(581, 146)
+        Me.Btnupdate.Name = "Btnupdate"
+        Me.Btnupdate.Size = New System.Drawing.Size(112, 56)
+        Me.Btnupdate.TabIndex = 0
+        Me.Btnupdate.Text = "Update"
+        Me.Btnupdate.UseVisualStyleBackColor = True
         '
-        'Department_codeLabel
+        'Btndelete
         '
-        Department_codeLabel.AutoSize = True
-        Department_codeLabel.Location = New System.Drawing.Point(300, 94)
-        Department_codeLabel.Name = "Department_codeLabel"
-        Department_codeLabel.Size = New System.Drawing.Size(121, 17)
-        Department_codeLabel.TabIndex = 12
-        Department_codeLabel.Text = "Department code:"
+        Me.Btndelete.Location = New System.Drawing.Point(581, 208)
+        Me.Btndelete.Name = "Btndelete"
+        Me.Btndelete.Size = New System.Drawing.Size(112, 55)
+        Me.Btndelete.TabIndex = 1
+        Me.Btndelete.Text = "Delete"
+        Me.Btndelete.UseVisualStyleBackColor = True
         '
-        'Course_codeLabel
+        'Btncancel
         '
-        Course_codeLabel.AutoSize = True
-        Course_codeLabel.Location = New System.Drawing.Point(329, 152)
-        Course_codeLabel.Name = "Course_codeLabel"
-        Course_codeLabel.Size = New System.Drawing.Size(92, 17)
-        Course_codeLabel.TabIndex = 14
-        Course_codeLabel.Text = "Course code:"
+        Me.Btncancel.Location = New System.Drawing.Point(578, 328)
+        Me.Btncancel.Name = "Btncancel"
+        Me.Btncancel.Size = New System.Drawing.Size(115, 57)
+        Me.Btncancel.TabIndex = 3
+        Me.Btncancel.Text = "Cancel"
+        Me.Btncancel.UseVisualStyleBackColor = True
         '
-        'Total_FeeLabel
+        'Btncommit
         '
-        Total_FeeLabel.AutoSize = True
-        Total_FeeLabel.Location = New System.Drawing.Point(349, 208)
-        Total_FeeLabel.Name = "Total_FeeLabel"
-        Total_FeeLabel.Size = New System.Drawing.Size(72, 17)
-        Total_FeeLabel.TabIndex = 16
-        Total_FeeLabel.Text = "Total Fee:"
+        Me.Btncommit.Location = New System.Drawing.Point(581, 269)
+        Me.Btncommit.Name = "Btncommit"
+        Me.Btncommit.Size = New System.Drawing.Size(112, 53)
+        Me.Btncommit.TabIndex = 2
+        Me.Btncommit.Text = "Commit"
+        Me.Btncommit.UseVisualStyleBackColor = True
         '
-        'Label1
+        'Buttonaddview
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(54, 70)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 19)
-        Me.Label1.TabIndex = 0
-        '
-        'Student_registration_QueryDataSet
-        '
-        Me.Student_registration_QueryDataSet.DataSetName = "Student_registration_QueryDataSet"
-        Me.Student_registration_QueryDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'StudentBindingSource
-        '
-        Me.StudentBindingSource.DataMember = "Student"
-        Me.StudentBindingSource.DataSource = Me.Student_registration_QueryDataSet
-        '
-        'StudentTableAdapter
-        '
-        Me.StudentTableAdapter.ClearBeforeFill = True
-        '
-        'TableAdapterManager
-        '
-        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
-        Me.TableAdapterManager.CoursesTableAdapter = Nothing
-        Me.TableAdapterManager.DepartmentTableAdapter = Nothing
-        Me.TableAdapterManager.StaffTableAdapter = Nothing
-        Me.TableAdapterManager.StudentTableAdapter = Me.StudentTableAdapter
-        Me.TableAdapterManager.SubjectTableAdapter = Nothing
-        Me.TableAdapterManager.UpdateOrder = Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
-        '
-        'NameTextBox
-        '
-        Me.NameTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Name", True))
-        Me.NameTextBox.Location = New System.Drawing.Point(95, 89)
-        Me.NameTextBox.Name = "NameTextBox"
-        Me.NameTextBox.Size = New System.Drawing.Size(195, 22)
-        Me.NameTextBox.TabIndex = 3
-        '
-        'IC_numberTextBox
-        '
-        Me.IC_numberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "IC_number", True))
-        Me.IC_numberTextBox.Location = New System.Drawing.Point(118, 145)
-        Me.IC_numberTextBox.Name = "IC_numberTextBox"
-        Me.IC_numberTextBox.Size = New System.Drawing.Size(172, 22)
-        Me.IC_numberTextBox.TabIndex = 5
-        '
-        'Matric_numberTextBox
-        '
-        Me.Matric_numberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Matric_number", True))
-        Me.Matric_numberTextBox.Location = New System.Drawing.Point(139, 208)
-        Me.Matric_numberTextBox.Name = "Matric_numberTextBox"
-        Me.Matric_numberTextBox.Size = New System.Drawing.Size(151, 22)
-        Me.Matric_numberTextBox.TabIndex = 7
-        '
-        'Contact_numberTextBox
-        '
-        Me.Contact_numberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Contact_number", True))
-        Me.Contact_numberTextBox.Location = New System.Drawing.Point(149, 263)
-        Me.Contact_numberTextBox.Name = "Contact_numberTextBox"
-        Me.Contact_numberTextBox.Size = New System.Drawing.Size(141, 22)
-        Me.Contact_numberTextBox.TabIndex = 9
-        '
-        'Department_codeTextBox
-        '
-        Me.Department_codeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Department_code", True))
-        Me.Department_codeTextBox.Location = New System.Drawing.Point(427, 94)
-        Me.Department_codeTextBox.Name = "Department_codeTextBox"
-        Me.Department_codeTextBox.Size = New System.Drawing.Size(190, 22)
-        Me.Department_codeTextBox.TabIndex = 13
-        '
-        'Course_codeTextBox
-        '
-        Me.Course_codeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Course_code", True))
-        Me.Course_codeTextBox.Location = New System.Drawing.Point(427, 149)
-        Me.Course_codeTextBox.Name = "Course_codeTextBox"
-        Me.Course_codeTextBox.Size = New System.Drawing.Size(190, 22)
-        Me.Course_codeTextBox.TabIndex = 15
-        '
-        'Total_FeeTextBox
-        '
-        Me.Total_FeeTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Total Fee", True))
-        Me.Total_FeeTextBox.Location = New System.Drawing.Point(427, 203)
-        Me.Total_FeeTextBox.Name = "Total_FeeTextBox"
-        Me.Total_FeeTextBox.Size = New System.Drawing.Size(174, 22)
-        Me.Total_FeeTextBox.TabIndex = 17
+        Me.Buttonaddview.Location = New System.Drawing.Point(581, 85)
+        Me.Buttonaddview.Name = "Buttonaddview"
+        Me.Buttonaddview.Size = New System.Drawing.Size(115, 55)
+        Me.Buttonaddview.TabIndex = 4
+        Me.Buttonaddview.Text = "Add new"
+        Me.Buttonaddview.UseVisualStyleBackColor = True
         '
         'MenuStrip1
         '
@@ -237,8 +133,8 @@ Partial Class Form2
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripComboBox1, Me.ToolStripComboBox2, Me.ToolStripComboBox3, Me.ToolStripComboBox4})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(674, 32)
-        Me.MenuStrip1.TabIndex = 18
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 32)
+        Me.MenuStrip1.TabIndex = 20
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ToolStripComboBox1
@@ -269,6 +165,46 @@ Partial Class Form2
         Me.ToolStripComboBox4.Size = New System.Drawing.Size(121, 28)
         Me.ToolStripComboBox4.Text = "Help"
         '
+        'Student_registration_QueryDataSet
+        '
+        Me.Student_registration_QueryDataSet.DataSetName = "Student_registration_QueryDataSet"
+        Me.Student_registration_QueryDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'StudentBindingSource
+        '
+        Me.StudentBindingSource.DataMember = "Student"
+        Me.StudentBindingSource.DataSource = Me.Student_registration_QueryDataSet
+        '
+        'StudentTableAdapter
+        '
+        Me.StudentTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.CoursesTableAdapter = Nothing
+        Me.TableAdapterManager.DepartmentTableAdapter = Nothing
+        Me.TableAdapterManager.StaffTableAdapter = Nothing
+        Me.TableAdapterManager.StudentTableAdapter = Me.StudentTableAdapter
+        Me.TableAdapterManager.SubjectTableAdapter = Nothing
+        Me.TableAdapterManager.UpdateOrder = Programming_Assignment2.Student_registration_QueryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        '
+        'NameTextBox
+        '
+        Me.NameTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Name", True))
+        Me.NameTextBox.Location = New System.Drawing.Point(133, 102)
+        Me.NameTextBox.Name = "NameTextBox"
+        Me.NameTextBox.Size = New System.Drawing.Size(201, 22)
+        Me.NameTextBox.TabIndex = 21
+        '
+        'Matric_numberTextBox
+        '
+        Me.Matric_numberTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.StudentBindingSource, "Matric_number", True))
+        Me.Matric_numberTextBox.Location = New System.Drawing.Point(186, 146)
+        Me.Matric_numberTextBox.Name = "Matric_numberTextBox"
+        Me.Matric_numberTextBox.Size = New System.Drawing.Size(148, 22)
+        Me.Matric_numberTextBox.TabIndex = 22
+        '
         'StudentBindingNavigator
         '
         Me.StudentBindingNavigator.AddNewItem = Me.BindingNavigatorAddNewItem
@@ -284,8 +220,8 @@ Partial Class Form2
         Me.StudentBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.StudentBindingNavigator.Name = "StudentBindingNavigator"
         Me.StudentBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.StudentBindingNavigator.Size = New System.Drawing.Size(674, 27)
-        Me.StudentBindingNavigator.TabIndex = 19
+        Me.StudentBindingNavigator.Size = New System.Drawing.Size(800, 27)
+        Me.StudentBindingNavigator.TabIndex = 23
         Me.StudentBindingNavigator.Text = "BindingNavigator1"
         '
         'BindingNavigatorAddNewItem
@@ -381,85 +317,52 @@ Partial Class Form2
         Me.StudentBindingNavigatorSaveItem.Size = New System.Drawing.Size(24, 24)
         Me.StudentBindingNavigatorSaveItem.Text = "Save Data"
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(139, 362)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(127, 48)
-        Me.Button1.TabIndex = 20
-        Me.Button1.Text = "View"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(490, 362)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(127, 52)
-        Me.Button2.TabIndex = 21
-        Me.Button2.Text = "Search"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Student_registration_QueryDataSet1
-        '
-        Me.Student_registration_QueryDataSet1.DataSetName = "Student_registration_QueryDataSet"
-        Me.Student_registration_QueryDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'Form2
+        'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(674, 455)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.StudentBindingNavigator)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.Controls.Add(Total_FeeLabel)
-        Me.Controls.Add(Me.Total_FeeTextBox)
-        Me.Controls.Add(Course_codeLabel)
-        Me.Controls.Add(Me.Course_codeTextBox)
-        Me.Controls.Add(Department_codeLabel)
-        Me.Controls.Add(Me.Department_codeTextBox)
-        Me.Controls.Add(Contact_numberLabel)
-        Me.Controls.Add(Me.Contact_numberTextBox)
         Me.Controls.Add(Matric_numberLabel)
         Me.Controls.Add(Me.Matric_numberTextBox)
-        Me.Controls.Add(IC_numberLabel)
-        Me.Controls.Add(Me.IC_numberTextBox)
         Me.Controls.Add(NameLabel)
         Me.Controls.Add(Me.NameTextBox)
-        Me.Controls.Add(Me.Label1)
-        Me.Name = "Form2"
-        Me.Text = "Student Details "
-        CType(Me.Student_registration_QueryDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.StudentBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.Controls.Add(Me.Buttonaddview)
+        Me.Controls.Add(Me.Btncancel)
+        Me.Controls.Add(Me.Btncommit)
+        Me.Controls.Add(Me.Btndelete)
+        Me.Controls.Add(Me.Btnupdate)
+        Me.Name = "Form3"
+        Me.Text = "Form3"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        CType(Me.Student_registration_QueryDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.StudentBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.StudentBindingNavigator, System.ComponentModel.ISupportInitialize).EndInit()
         Me.StudentBindingNavigator.ResumeLayout(False)
         Me.StudentBindingNavigator.PerformLayout()
-        CType(Me.Student_registration_QueryDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Student_registration_QueryDataSet As Student_registration_QueryDataSet
-    Friend WithEvents StudentBindingSource As BindingSource
-    Friend WithEvents StudentTableAdapter As Student_registration_QueryDataSetTableAdapters.StudentTableAdapter
-    Friend WithEvents TableAdapterManager As Student_registration_QueryDataSetTableAdapters.TableAdapterManager
-    Friend WithEvents NameTextBox As TextBox
-    Friend WithEvents IC_numberTextBox As TextBox
-    Friend WithEvents Matric_numberTextBox As TextBox
-    Friend WithEvents Contact_numberTextBox As TextBox
-    Friend WithEvents Department_codeTextBox As TextBox
-    Friend WithEvents Course_codeTextBox As TextBox
-    Friend WithEvents Total_FeeTextBox As TextBox
+    Friend WithEvents Btnupdate As Button
+    Friend WithEvents Btndelete As Button
+    Friend WithEvents Btncancel As Button
+    Friend WithEvents Btncommit As Button
+    Friend WithEvents Buttonaddview As Button
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ToolStripComboBox1 As ToolStripComboBox
     Friend WithEvents ToolStripComboBox2 As ToolStripComboBox
     Friend WithEvents ToolStripComboBox3 As ToolStripComboBox
     Friend WithEvents ToolStripComboBox4 As ToolStripComboBox
+    Friend WithEvents Student_registration_QueryDataSet As Student_registration_QueryDataSet
+    Friend WithEvents StudentBindingSource As BindingSource
+    Friend WithEvents StudentTableAdapter As Student_registration_QueryDataSetTableAdapters.StudentTableAdapter
+    Friend WithEvents TableAdapterManager As Student_registration_QueryDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents NameTextBox As TextBox
+    Friend WithEvents Matric_numberTextBox As TextBox
     Friend WithEvents StudentBindingNavigator As BindingNavigator
     Friend WithEvents BindingNavigatorAddNewItem As ToolStripButton
     Friend WithEvents BindingNavigatorCountItem As ToolStripLabel
@@ -473,7 +376,4 @@ Partial Class Form2
     Friend WithEvents BindingNavigatorMoveLastItem As ToolStripButton
     Friend WithEvents BindingNavigatorSeparator2 As ToolStripSeparator
     Friend WithEvents StudentBindingNavigatorSaveItem As ToolStripButton
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Student_registration_QueryDataSet1 As Student_registration_QueryDataSet
 End Class
